@@ -9,7 +9,7 @@ function Registry(){
 
     const addItem = (e) => {
         e.preventDefault();
-        if (error == false)
+        if (error === false)
         {
         const tempData = [...registryData];
         tempData.push(textInput)
@@ -43,7 +43,7 @@ function Registry(){
     // Comment added to view the updated code in Github
     // Comment added to view the updated code in Github
     // Comment added to view the updated code in Github
-    
+
     return(
         <div>
             <form onSubmit={addItem}>
