@@ -38,7 +38,7 @@ function Registry(){
     }, [textInput])
 
     console.log(registryData)
-
+    // Comment added to view the updated code in Github
     return(
         <div>
             <form onSubmit={addItem}>
